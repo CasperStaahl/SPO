@@ -25,15 +25,6 @@
     }
 }
 
-class Parser
-{
-    public string[] Parse(string str)
-    {
-        return str.Split(" ");
-
-    }
-}
-
 abstract class Node
 {
     public abstract void PrintDfs();
